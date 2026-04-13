@@ -6,7 +6,7 @@ const appConfig = { apiKey: "AIzaSyCtjsy_NUH3vNHbiXlGP4nUmusefzIuJyI", authDomai
 const db = getFirestore(initializeApp(appConfig));
 
 // USERS & SUBJECTS
-const USERS = ["Kartik","Rohan","Ranveer","Rishikesh","Malhar","Kunal","Raj","Saksham","Shravan","Soham Shivkar","Soham Ozkar","Soham Gade","Amrit","Atharva","Vedant","Mithilesh","Parth","Ansh","Chinmay","Siddharth","Guest"];
+const USERS = ["Kartik","Rohan","Ranveer","Rishikesh","Malhar","Kunal","Raj","Saksham","Shravan","Soham Shivkar","Soham Ozkar","Soham Gade","Amrit","Atharva","Vedant","Mithilesh","Parth","Ansh","Chinmay","Siddharth","kavya"];
 const SUBS = ["Hindi","Sanskrit","Marathi","English","Maths","Physics","Chemistry","Biology","History","Civics","Geography","Economics","IT"];
 
 // TIMEZONE FIX: Force strict local date (YYYY-MM-DD)
